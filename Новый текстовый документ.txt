@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ariston</title>
+</head>
+<body>
+<div id="pagewrap">
+<div class="logo"></div>
+<div class="heading">
+	<img src="text.png">
+</div>
+<div class="main_pic"></div>
+<div class="inf_up"></div>
+<a href="###" class="view_bttn"></a>
+<div class="inf_down"></div>
+</div>
+</body>
+</html>
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    -webkit-text-size-adjust: none;
+  }
+ #pagewrap {
+ 	width: 100%;
+ 	height: 100%;
+ 	background-color: white;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ 	position: absolute;
+ }
+ .logo {
+ 	display: block;
+ 	width: 20%;
+ 	height: 12%;
+ 	margin: 6% auto 0 auto;
+ 	background: center no-repeat url('logo.png');
+	background-size: contain;
+
+
+ }
+ .heading {
+ 	display: block;
+ 	width: 74%;
+ 	height: 32%;
+ 	margin: 0 auto;
+ }
+ .heading img {
+ 	width: 100%;
+ 	height: 100%;
+ 	margin: 0;
+ 	position: relative;
+ }
+.main_pic {
+	display: block;
+	width: 36%;
+	height: 32%;
+	margin: 0 auto;
+	background: center no-repeat url('couple.png');
+	background-size: contain;
+
+}
+.inf_up {
+	display: block;
+	width: 80%;
+	height: 4%;
+	margin:2% auto 0 auto;
+	background: center no-repeat url('text2.png');
+	background-size: contain;	
+}
+.view_bttn {
+	display: block;
+	width: 54%;
+	height: 8%;
+	margin: 4% auto 0 auto;
+	background: center no-repeat url('view.png');
+	background-size: contain;
+}
+.inf_down {
+	display: block;
+	width: 92%;
+	height: 2%;
+	margin: 4% auto 1% auto;
+	background: center no-repeat url('text_footer.png');
+	background-size: contain;
+}
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+ html {
+ 	 -webkit-text-size-adjust: none;
+ }
+ 
+
+#container {
+	width: 100%;
+	height: 100%;
+	margin:0;
+	position: absolute;
+	overflow: hidden;
+}
+.logo,.heading,.couple,.text,.bttn,.text_footer, img {
+	display: block;
+}
+img {
+   width: 100%;
+   height: auto;
+   margin: 0;
+
+}
+.logo {
+	margin: 4.6% auto 0 auto;
+	width: 18.75%;
+	height: 12.39%;
+
+}
+.heading {
+	margin: 0 auto;
+	width: 75.61%;
+	height: 31.77%;
+
+}
+.couple {
+	margin:0 auto;
+	max-width: 29.20%;
+	max-height: 23.94%;
+
+}
+.text {
+	margin: 6% auto;
+	max-width: 79.06%;
+	max-height: 3.53%;
+
+}
+.bttn {
+	margin: 8% auto 4% auto;
+	max-width: 53.56%;
+	max-height: 8.61%;
+	
+}
+.text_footer {
+	margin: 0 auto;
+	width: 93.32%;
+	height: 1.58%;
+	
+}
+@media screen and (min-device-width: 1024px) {
+	#container {
+		position: absolute;
+		left: 50%;
+		margin-left:-230px;
+		width: 460px;
+		height: 100%;
+	}
+}
+@media screen and (min-device-width: 1376px) {
+	#container {
+		position: absolute;
+		left: 50%;
+		margin-left:-340px;
+		width: 680px;
+		height: 100%;
+	}
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<title>Ariston</title>
+</head>
+<body>
+	<div id="container">
+		<div class="logo">
+			<img src="logo.png">
+		</div>
+		<div class="heading">
+			<img src="text.png">
+		</div>
+		<div class="couple">
+			<img src="couple.png">
+		</div>
+		<div class="text">
+			<img src="text2.png">
+		</div>
+		<a href="###" class="bttn">
+			<img src="view.png">
+		</a>
+		<div class="text_footer">
+			<img src="text_footer.png">
+		</div>
+
+	</div>
+</body>
+</html>
