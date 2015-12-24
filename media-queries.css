@@ -1,0 +1,35 @@
+@media screen and (min-device-width: 736px) {
+
+.inftxt {
+
+	margin: 6% auto;
+}
+.comment {
+	margin: 4% auto 0 auto;
+}
+
+
+}
+
+@media screen and (min-device-width: 1024px) {
+	#container {
+	background-size: cover;
+	background-position: top center;
+	max-width: 50%;
+  	height: 100%;
+  	margin:0 auto;
+  	position: relative;
+  	overflow: hidden;
+
+}
+.inftxt {
+
+	margin: 5% auto;
+}
+.comment {
+	margin: 3% auto 0 auto;
+}
+
+
+	
+}
